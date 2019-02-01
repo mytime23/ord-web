@@ -1,0 +1,25 @@
+.home {
+    font-size: 24px;
+}
+
+.footer {
+    color: #fff;
+    height: 50px;
+    background-color: #444;
+}
+
+.topic-1 {
+    background-color: #ccc;
+}
+
+.topic-2 {
+    background-color: #eee;
+}
+
+.topic-3 {
+    background-color: #ddd;
+}
+
+.set-border {
+    border: 1px red solid;
+}
