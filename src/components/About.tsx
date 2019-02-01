@@ -72,7 +72,15 @@ class List extends Component {
         return(
             <PlayContext.Consumer>
              { (context) => (
+                 <>
                  <h1>This is Title List {context.title}</h1>
+                 <Button color="warning" onClick= {() =>
+                    {
+                        return this.setState({ handeChange: context.handeChange()});
+                    }}>
+                    Update
+                 </Button>
+                 </>
              )}
             </PlayContext.Consumer>
         )

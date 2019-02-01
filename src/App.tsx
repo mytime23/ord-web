@@ -11,10 +11,10 @@ class App extends Component {
     return (
       <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
-        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home}/>
-        <Route path={`${process.env.PUBLIC_URL}/home`} component={Home}/>      
-        <Route path={`${process.env.PUBLIC_URL}/about`} component={About}/>
-        <Route path={`${process.env.PUBLIC_URL}/docs`} component={Docs}/>
+        <Route exact path='/' component={Home}/>
+        <Route path='/home' component={Home}/>      
+        <Route path='/about' component={About}/>
+        <Route path='/docs' component={Docs}/>
         {/* <Redirect to="/" /> */}
       </Switch>
     </BrowserRouter>

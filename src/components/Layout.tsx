@@ -37,7 +37,7 @@ class Layout extends Component<{}, IComponentState> {
           <Navbar color="dark" dark expand="md">
           <NavbarBrand tag={Link} to="/">
               <img src={process.env.PUBLIC_URL + '/Ocean.png'} width="32px" height="32px" alt="Logo" />{'    '}
-              PWA-APP
+              ORD WEB
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

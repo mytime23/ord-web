@@ -1,0 +1,1 @@
+xcopy C:\Users\Tim\Documents\GitHub\ord-web\build D:\xampp\htdocs\ord-web /S

@@ -1,25 +1,32 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import { IpcNetConnectOpts } from 'net';
+import { inherits } from 'util';
 
-interface IContextState {
-    color: string,
-    title: string 
+const InitState = {
+    color: "primary" ,
+    title: "Context",
+    handeChange: () => {
+        return InitState.title = "Update Context";
+    }
 }
 
-export const PlayContext = React.createContext<Partial<IContextState>>({}); // React 16.3 support
+type State = Readonly<typeof InitState>;
 
-export class PlayProvider extends Component<{}, IContextState> {
-    constructor(props: {}) {
-        super(props);
-        this.state = {
-            color: "primary" ,
-            title: "Context"
-        }
-    }
+export const PlayContext = React.createContext(InitState); // React 16.3 support
+
+export class PlayProvider extends Component<{}, State> {
+    readonly state: State = InitState;
     
+    // componentDidMount() {
+    //     this.setState({
+    //         title: 'Auto2',
+    //         color: "success"
+    //     })
+    // }
    
     render() {
+        {}
         return(
             <PlayContext.Provider value={this.state}>
                 {this.props.children}
