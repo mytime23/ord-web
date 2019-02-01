@@ -1,7 +1,7 @@
 {
   "main.css": "/ord-web/static/css/main.a1145447.chunk.css",
-  "main.js": "/ord-web/static/js/main.59cc3503.chunk.js",
-  "main.js.map": "/ord-web/static/js/main.59cc3503.chunk.js.map",
+  "main.js": "/ord-web/static/js/main.4de39cac.chunk.js",
+  "main.js.map": "/ord-web/static/js/main.4de39cac.chunk.js.map",
   "static/css/1.ceeb3b46.chunk.css": "/ord-web/static/css/1.ceeb3b46.chunk.css",
   "static/js/1.f317c7c9.chunk.js": "/ord-web/static/js/1.f317c7c9.chunk.js",
   "static/js/1.f317c7c9.chunk.js.map": "/ord-web/static/js/1.f317c7c9.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/1.ceeb3b46.chunk.css.map": "/ord-web/static/css/1.ceeb3b46.chunk.css.map",
   "static/css/main.a1145447.chunk.css.map": "/ord-web/static/css/main.a1145447.chunk.css.map",
   "index.html": "/ord-web/index.html",
-  "precache-manifest.c8a15f00f0cfda01e4941f33e50a7b15.js": "/ord-web/precache-manifest.c8a15f00f0cfda01e4941f33e50a7b15.js",
+  "precache-manifest.772a6944fb7bb0e41ca310ce5f0a66f8.js": "/ord-web/precache-manifest.772a6944fb7bb0e41ca310ce5f0a66f8.js",
   "service-worker.js": "/ord-web/service-worker.js"
 }
