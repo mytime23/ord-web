@@ -6,8 +6,21 @@ import React, { Component } from 'react';
 const InitState = {
     color: "primary" ,
     title: "Context",
-    handeChange: () => {
-        return InitState.title = "Update Context";
+    toggle: false,
+    count: 0,
+    handeChange: (toggle: boolean) => {
+        InitState.toggle = !toggle;        
+        InitState.title = InitState.toggle?"Update Context!":"";
+        InitState.color = InitState.toggle?"primary":"warning";
+        return InitState;
+    },
+    handleAdd: () => {
+        InitState.count <= 9?InitState.count++:InitState.count;        
+        return InitState.count;
+    },
+    handleSub: () => {
+        InitState.count >= 1?InitState.count--:InitState.count;        
+        return InitState.count;
     }
 }
 
