@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { Container } from 'reactstrap';
 import {
     Collapse,
     Navbar,
@@ -54,11 +55,11 @@ class Layout extends Component<{}, IComponentState> {
             </Nav>
           </Collapse>
         </Navbar>
-            <div className="main">
+            <Container className="home" fluid>
                 {this.props.children}
-            </div>
+            </Container>
             <div>
-              <p className="footer text-center">Copyright ©2019 Tim v0.1.1 </p>
+              <p className="footer text-center">Copyright ©2019 Tim v0.1.2 </p>
             </div>
         </div>
 
