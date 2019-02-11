@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Button, Alert } from 'reactstrap';
 import Layout from './Layout';
-import {PlayContext, PlayProvider} from '../Providers';
-import "./Styles.css";
+import { PlayContext, PlayProvider } from '../Providers';
+import './Styles.css';
 
 interface IComponentState {
     info: string 

@@ -10,7 +10,7 @@ import {
     NavLink,
     Button
  } from 'reactstrap';
-import "./Styles.css";
+import './Styles.css';
 
 interface IComponentState {
   isOpen: boolean,
@@ -58,7 +58,7 @@ class Layout extends Component<{}, IComponentState> {
                 {this.props.children}
             </div>
             <div>
-              <p className="footer text-center">Copyright ©2019 Tim </p>
+              <p className="footer text-center">Copyright ©2019 Tim v0.1.1 </p>
             </div>
         </div>
 

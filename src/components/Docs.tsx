@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
-import Layout from '../components/Layout';
+import Layout from './Layout';
 import { PlayProvider} from '../Providers';
 
 class Docs extends Component {
