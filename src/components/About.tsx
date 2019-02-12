@@ -50,6 +50,7 @@ interface IInfoProps {
     toggle(event: any): void;
 }
 
+/* 新 Context API 功能 */
 class Info extends Component<IInfoProps, {}> {
     constructor(props: IInfoProps) {
         super(props)
@@ -74,6 +75,7 @@ class Info extends Component<IInfoProps, {}> {
     }
  }
 
+/* 原 Context API 功能 */
 class List extends Component {
     render() {
         return(

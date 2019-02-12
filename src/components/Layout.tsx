@@ -44,7 +44,7 @@ class Layout extends Component<{}, IComponentState> {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink tag={Link} to="/home">首頁</NavLink>
+                <NavLink tag={Link} to="/">首頁</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink tag={Link} to="/about">關於</NavLink>
@@ -59,7 +59,7 @@ class Layout extends Component<{}, IComponentState> {
                 {this.props.children}
             </Container>
             <div>
-              <p className="footer text-center">Copyright ©2019 Tim v0.1.2 </p>
+              <p className="footer text-center">Copyright ©2019 Tim v0.1.3 </p>
             </div>
         </div>
 
