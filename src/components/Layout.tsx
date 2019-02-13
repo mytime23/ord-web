@@ -52,6 +52,9 @@ class Layout extends Component<{}, IComponentState> {
               <NavItem>
                 <NavLink tag={Link} to="/docs">文件</NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/mytime23/ord-web">GitHub</NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
@@ -59,7 +62,7 @@ class Layout extends Component<{}, IComponentState> {
                 {this.props.children}
             </Container>
             <div>
-              <p className="footer text-center">Copyright ©2019 Tim v0.1.3 </p>
+              <p className="footer text-center">Copyright ©2019 Tim v0.1.4 </p>
             </div>
         </div>
 

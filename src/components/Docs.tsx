@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Table, Button } from 'reactstrap';
+import { Container, Row, Table, Spinner } from 'reactstrap';
 import Layout from './Layout';
 import { DocsContext, DocsProvider } from '../Providers';
 
@@ -26,16 +26,22 @@ class Info extends Component {
     static contextType = DocsContext; //React 16.6 support
  
     render() {
-        let { docsTitle, list} = this.context;
-        // const showList = list.map((i: any) =>
-        //         <tr>
-        //         <th scope="row">{i.id}</th>
-        //         <td>{i.title}</td>
-        //         <td></td>
-        //         <td>{i.created}</td>
-        //       </tr> 
-        // );
+        let data:any;
+        let { docsTitle, lists, isLoading} = this.context;        
 
+        if(isLoading) {
+            data = <div><Spinner color="primary" /></div>;
+        }else {
+            data = lists.map((i: any) =>
+              <tr key={i.id}>
+                <th scope="row">{i.id}</th>
+                <td>{i.title}</td>
+                <td></td>
+                <td>{i.created}</td>
+            </tr> 
+            );
+        }
+        
         return(
              <div>
                 <h1>使用 Content API {docsTitle}</h1>
@@ -49,13 +55,7 @@ class Info extends Component {
                       </tr>
                     </thead>
                     <tbody>
-                     <tr>
-                        <th scope="row">{list.id}</th>
-                        <td>{list.title}</td>
-                        <td></td>
-                        <td>{list.created}</td>
-                      </tr>
-                      {/* {showList} */}
+                      {data}
                     </tbody>
                  </Table>   
              </div>
