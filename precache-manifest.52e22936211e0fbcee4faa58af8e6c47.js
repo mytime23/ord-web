@@ -4,23 +4,23 @@ self.__precacheManifest = [
     "url": "/ord-web/static/js/runtime~main.c1b01573.js"
   },
   {
-    "revision": "e97f22316e7649502495",
-    "url": "/ord-web/static/js/main.e97f2231.chunk.js"
+    "revision": "184afc8cf8653ef4c2aa",
+    "url": "/ord-web/static/js/main.184afc8c.chunk.js"
   },
   {
     "revision": "35ad8b25dbeddaa4c27b",
     "url": "/ord-web/static/js/2.35ad8b25.chunk.js"
   },
   {
-    "revision": "e97f22316e7649502495",
-    "url": "/ord-web/static/css/main.b57b58e3.chunk.css"
+    "revision": "184afc8cf8653ef4c2aa",
+    "url": "/ord-web/static/css/main.0c152b42.chunk.css"
   },
   {
     "revision": "35ad8b25dbeddaa4c27b",
     "url": "/ord-web/static/css/2.c4f19052.chunk.css"
   },
   {
-    "revision": "8cbe66785fb2b15472bbc170036d945b",
+    "revision": "abbde0b23d35568a97075b03db43b1a1",
     "url": "/ord-web/index.html"
   }
 ];
