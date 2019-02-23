@@ -1,15 +1,15 @@
 {
-  "main.css": "/ord-web/static/css/main.970037fa.chunk.css",
-  "main.js": "/ord-web/static/js/main.a6108d83.chunk.js",
-  "main.js.map": "/ord-web/static/js/main.a6108d83.chunk.js.map",
-  "static/css/1.07e58fd0.chunk.css": "/ord-web/static/css/1.07e58fd0.chunk.css",
-  "static/js/1.f31a8042.chunk.js": "/ord-web/static/js/1.f31a8042.chunk.js",
-  "static/js/1.f31a8042.chunk.js.map": "/ord-web/static/js/1.f31a8042.chunk.js.map",
-  "runtime~main.js": "/ord-web/static/js/runtime~main.9509b7f1.js",
-  "runtime~main.js.map": "/ord-web/static/js/runtime~main.9509b7f1.js.map",
-  "static/css/1.07e58fd0.chunk.css.map": "/ord-web/static/css/1.07e58fd0.chunk.css.map",
-  "static/css/main.970037fa.chunk.css.map": "/ord-web/static/css/main.970037fa.chunk.css.map",
+  "main.css": "/ord-web/static/css/main.b57b58e3.chunk.css",
+  "main.js": "/ord-web/static/js/main.e97f2231.chunk.js",
+  "main.js.map": "/ord-web/static/js/main.e97f2231.chunk.js.map",
+  "runtime~main.js": "/ord-web/static/js/runtime~main.c1b01573.js",
+  "runtime~main.js.map": "/ord-web/static/js/runtime~main.c1b01573.js.map",
+  "static/css/2.c4f19052.chunk.css": "/ord-web/static/css/2.c4f19052.chunk.css",
+  "static/js/2.35ad8b25.chunk.js": "/ord-web/static/js/2.35ad8b25.chunk.js",
+  "static/js/2.35ad8b25.chunk.js.map": "/ord-web/static/js/2.35ad8b25.chunk.js.map",
   "index.html": "/ord-web/index.html",
-  "precache-manifest.3707ff393a0dfff35696f6f10811fab4.js": "/ord-web/precache-manifest.3707ff393a0dfff35696f6f10811fab4.js",
-  "service-worker.js": "/ord-web/service-worker.js"
+  "precache-manifest.8372a629e74cadb7542ee2155a4ff8e4.js": "/ord-web/precache-manifest.8372a629e74cadb7542ee2155a4ff8e4.js",
+  "service-worker.js": "/ord-web/service-worker.js",
+  "static/css/2.c4f19052.chunk.css.map": "/ord-web/static/css/2.c4f19052.chunk.css.map",
+  "static/css/main.b57b58e3.chunk.css.map": "/ord-web/static/css/main.b57b58e3.chunk.css.map"
 }
